@@ -15,6 +15,6 @@ class Artist
     newsong.artist = self 
 end
   def songs 
-    
+    Song.all.select do |song| 
 end
 end
