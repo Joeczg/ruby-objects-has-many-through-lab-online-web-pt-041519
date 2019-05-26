@@ -15,5 +15,6 @@ class Artist
     newsong.artist = self 
 end
   def songs 
+    
 end
 end
