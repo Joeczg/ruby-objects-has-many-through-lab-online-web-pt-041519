@@ -7,4 +7,5 @@ class Doctor
   end
   
   def new_appointment(date)
+    
 end
