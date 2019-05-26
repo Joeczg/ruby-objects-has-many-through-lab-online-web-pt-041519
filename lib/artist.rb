@@ -19,7 +19,9 @@ end
   end
 end
   def genres 
-    artist.song.map do |genre|
-      
+    artist.song.map do |songs|
+      songs.genre
+    end
+    
 end
 end
